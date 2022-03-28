@@ -1,0 +1,145 @@
+body{
+    background-image: url('pics.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+  }
+
+  .modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+
+
+nav{
+    background-color: #292b2c;
+    height: 70px;
+}
+
+img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 650px;
+    top: 5px;
+}
+
+
+h3{
+     
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.zero , .zero:hover,.zero:visited, .zero:focus{
+    font-size: 20px;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: #292b2c;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:1%;
+    
+ }
+
+ .one , .one:hover,.one:visited, .one:focus{
+    font-size: 20px;
+    background-color:  #222F5B;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:90%;
+    
+ }
+ 
+ .two , .two:hover,.two:visited, .two:focus{
+    font-size: 20px;
+    background-color: #740001;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:71.2%;
+    
+ }
+
+    
+.three , .three:hover,.three:visited, .three:focus{
+    font-size: 20px;
+    background-color: #2A623D;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:80.9%;
+    
+ }
+
+
+ 
+ h4{
+    font-size: 30px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.panel-heading{
+    background-color: darkkhaki;
+}
+
+.modal-title{
+    color: white;
+    text-align: center;
+}
+
+.panel-body{
+    background-color: darkkhaki;
+}
+
+
+
+.modal-body{
+    background-color: #292b2c;
+}
+
+label{
+    color: white;
+}

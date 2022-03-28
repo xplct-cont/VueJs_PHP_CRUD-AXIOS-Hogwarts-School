@@ -1,0 +1,108 @@
+
+body{
+    background-image: url('back.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+
+ 
+ nav{
+    background-color: #292b2c;
+    height: 70px;
+    
+ }
+
+ h3{
+     position: relative;
+     left: 100px;
+     font-size: 40px;
+     margin-top: 10px;
+     color: white;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ 
+ .logo {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 40px;
+    top: 5px;
+}
+
+.pic{
+   position:absolute;
+   left: 5.5%;
+   top: 5%;
+}
+
+
+
+.one , .one:hover,.one:visited, .one:focus{
+   font-size: 20px;
+   background-color: #740001;
+   padding-left: 30px;
+   padding-top: 10px;
+   padding-right: 30px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+   color:white;
+   text-decoration:none;
+   position: absolute;
+   top: 10px;
+   left:90%;
+   
+}
+
+.two , .two:hover,.two:visited, .two:focus{
+    font-size: 20px;
+    background-color:  #2A623D;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:71.2%;
+    
+ }
+ 
+.three , .three:hover,.three:visited, .three:focus{
+    font-size: 20px;
+    background-color: #222F5B;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:80.1%;
+    
+ }
+
+ .four , .four:hover,.four:visited, .four:focus{
+    font-size: 20px;
+    background-color: darkkhaki;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    top: 10px;
+    left:62%;
+    
+ }
+
+
